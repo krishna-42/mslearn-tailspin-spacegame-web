@@ -17,7 +17,7 @@ variables:
   dotnetSdkVersion: '5.x'
 
 steps:
-- task: UseDotNet@5s
+- task: UseDotNet@5
   displayName: 'Use .NET SDK $(dotnetSdkVersion)'
   inputs:
     version: '$(dotnetSdkVersion)'
