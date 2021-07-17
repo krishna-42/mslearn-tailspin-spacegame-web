@@ -37,7 +37,7 @@ steps:
   displayName: 'Write build info'
   workingDirectory: $(wwwrootDir)
 
-- task: DotNetCoreCLI
+- task: DotNetCoreCLI@5
   displayName: 'Restore project dependencies'
   inputs:
     command: 'restore'
